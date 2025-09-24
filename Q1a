@@ -1,4 +1,5 @@
 --1a Produce a timeseries showing sales for all months from 2020 to 2024
+
 SELECT
     YEAR(c.dte) AS 'Year',
     LEFT(DATENAME(month, c.dte), 3) AS 'Month',
